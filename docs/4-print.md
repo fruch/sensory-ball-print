@@ -4,8 +4,9 @@
 
 ## 1. Get matching parts
 
-Download the three files from the designer's page (_link coming soon_):
-two halves **of the same size**, and the screw.
+Get the three files from the [Pastrami Angel](https://pastrami-angel.com/)
+team (they are shared privately for now): two halves **of the same size**,
+and the screw.
 
 | Good | Bad |
 |---|---|

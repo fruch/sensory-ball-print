@@ -40,8 +40,9 @@ Each page tells you exactly what to click.
 
 ## Getting the model
 
-The model is the 3D shape of the ball. Its files are not stored here.
-Download them from the designer's page: _link coming soon_.
+The model is the 3D shape of the ball. Its files are not stored here - for
+now they are shared privately. Ask the [Pastrami Angel](https://pastrami-angel.com/)
+team for them.
 
 You need **two halves of the same size** plus the screw. For example, for
 the 51 mm ball: `senso1_51mm_V12_mono.stl`, `senso2_51mm_V12_mono.stl` and
