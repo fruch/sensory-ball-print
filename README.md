@@ -1,23 +1,30 @@
+[עברית](README.he.md)
+
 # Sensory Ball - print guide for volunteers
 
-Step-by-step help for printing the **spiky sensory ball** on a home 3D printer
-and getting a good result: ready-made slicer settings, a short calibration
-routine, and a parts check so you don't spend 5 hours printing pieces that
-don't fit.
+This guide shows you, step by step, how to print the **spiky sensory ball** on
+a 3D printer at home. You get ready-made settings, a short set of test prints
+to tune your printer, and a check that the parts fit - so you don't spend
+5 hours printing pieces that don't go together.
 
-This guide is part of a charity effort: [Pastrami Angel](https://pastrami-angel.com/).
+This guide is part of a charity project: [Pastrami Angel](https://pastrami-angel.com/).
 
-The ball is three printed parts: **two spiky halves** and a **threaded
-connector (screw)** that joins them. On a Creality Ender 3 Pro the whole set
-takes about **4.5 hours** and **30 g of PLA**, with no supports.
+The ball has three printed parts: **two spiky halves** and a **screw** (a
+threaded connector) that holds them together. On a Creality Ender 3 Pro
+printer, all three parts take about **4.5 hours** and use **30 g of PLA**
+plastic. You don't need supports (extra helper plastic that holds up
+overhanging parts).
 
-## You will need
+## What you need
 
-- A 3D printer. Tested: **Creality Ender 3 Pro**. Other printers work with the
-  general calibration steps; tested presets for more printers are on the way.
-- PLA filament, 1.75 mm.
+- A 3D printer. We tested on a **Creality Ender 3 Pro**. Other printers work
+  too if you do the general test prints. Tested settings for more printers are
+  coming.
+- **Filament** - the plastic "string" on a spool that the printer melts. Use
+  PLA, 1.75 mm thick.
 - A computer - Windows, Mac or Linux.
-- About 1.5 hours for the one-time calibration, then about 4.5 hours per ball.
+- About 1.5 hours for the test prints (you do them only once), then about
+  4.5 hours for each ball.
 
 ## Steps
 
@@ -25,22 +32,22 @@ takes about **4.5 hours** and **30 g of PLA**, with no supports.
 |---|---|---|
 | 1 | [Install the slicer (OrcaSlicer)](docs/1-install.md) | 10 min |
 | 2 | [Load this project's settings](docs/2-presets.md) | 5 min |
-| 3 | [Calibrate your printer and filament](docs/3-calibrate.md) - once per printer + filament | about 1.5 h, mostly waiting |
-| 4 | [Print and assemble the ball](docs/4-print.md) | about 4.5 h printing |
+| 3 | [Tune your printer and filament](docs/3-calibrate.md) - once per printer + filament | about 1.5 h, mostly waiting |
+| 4 | [Print and put the ball together](docs/4-print.md) | about 4.5 h printing |
 
-Never used a 3D printer or a slicer before? Start at step 1 and follow every
-step in order - each page says exactly what to click.
+New to 3D printing? No problem. Start at step 1 and do every step in order.
+Each page tells you exactly what to click.
 
 ## Getting the model
 
-The model files are not stored here. Download them from the designer's page:
-_link coming soon_.
+The model is the 3D shape of the ball. Its files are not stored here.
+Download them from the designer's page: _link coming soon_.
 
-You need **two halves of the same size** plus the screw, e.g. for the 51 mm
-ball: `senso1_51mm_V12_mono.stl`, `senso2_51mm_V12_mono.stl` and
-`Sensory Screw V11.stl` (the V11 screw is the current one and fits the V12
-halves). Mixing sizes is the most common mistake - the pieces print fine but
-won't make a round ball. Step 4 shows how to check.
+You need **two halves of the same size** plus the screw. For example, for
+the 51 mm ball: `senso1_51mm_V12_mono.stl`, `senso2_51mm_V12_mono.stl` and
+`Sensory Screw V11.stl`. (The V11 screw is the newest one, and it fits the V12
+halves.) The most common mistake is mixing sizes. The pieces print fine, but
+they don't make a round ball. Step 4 shows how to check.
 
 ## Printer status
 
