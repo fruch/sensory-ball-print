@@ -88,21 +88,17 @@ Too tight or too loose? See the [fit test](3-calibrate.md#4-fit-test).
 ## Optional: checking the files before printing
 
 `tools/check_fit.py` measures the files you downloaded and tells you if they
-fit together. It needs Python 3 (a free program):
+fit together. It needs Python 3 (a free program). **First time?** Follow
+[Setting up Python](tools-setup.md) - it shows every step for Windows, Mac
+and Linux.
 
-- **Windows:** install **Python 3** from the Microsoft Store.
-- **Mac:** open **Terminal** and type `python3`. If it's missing, macOS
-  offers to install it.
-- **Linux:** it's already installed.
-
-Then open a terminal in the folder where you unzipped this project, and run:
+Then, in a terminal in the project folder, run:
 
 ```
 python3 tools/check_fit.py half1.stl half2.stl screw.stl
 ```
 
-(On Windows, type `python` instead of `python3`.) Tip: you can drag a file
-from your folder window into the terminal window. That pastes its full path.
+(On Windows: `python tools\check_fit.py half1.stl half2.stl screw.stl`.)
 
 At the end it says **"OK: these parts fit together."** or tells you which file
 is wrong.

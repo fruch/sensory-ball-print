@@ -65,19 +65,15 @@ python3 tools/extract_ball.py "Sanso 51 U1.3mf" model
 
 ## אופציונלי: בדיקת הקבצים לפני ההדפסה
 
-הסקריפט `tools/check_fit.py` מודד את הקבצים שהורדתם ואומר לכם אם הם מתאימים זה לזה. הוא צריך Python 3 (תוכנה חינמית):
+הסקריפט `tools/check_fit.py` מודד את הקבצים שהורדתם ואומר לכם אם הם מתאימים זה לזה. הוא צריך Python 3 (תוכנה חינמית). **פעם ראשונה?** עקבו אחרי [התקנת Python](tools-setup.md) - שם כל השלבים ל-Windows, ל-Mac ול-Linux.
 
-- **ב-Windows:** התקינו **Python 3** מ-Microsoft Store.
-- **ב-Mac:** פתחו **Terminal** והקלידו `python3`. אם הוא לא מותקן, macOS יציע להתקין אותו.
-- **ב-Linux:** הוא כבר מותקן.
-
-אחר כך פתחו טרמינל בתיקייה שבה חילצתם את הפרויקט, והריצו:
+אחר כך, בטרמינל בתיקיית הפרויקט, הריצו:
 
 ```
 python3 tools/check_fit.py half1.stl half2.stl screw.stl
 ```
 
-(ב-Windows מקלידים `python` במקום `python3`.) טיפ: אפשר לגרור קובץ מחלון התיקייה אל חלון הטרמינל. ככה הנתיב המלא שלו מודבק.
+(ב-Windows: `python tools\check_fit.py half1.stl half2.stl screw.stl`.)
 
 בסוף הוא יכתוב **"OK: these parts fit together."‎** או יגיד לכם איזה קובץ לא תקין.
 

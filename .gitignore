@@ -4,3 +4,5 @@
 *.3mf
 *.gcode
 __pycache__/
+out/
+model/

@@ -35,6 +35,9 @@ overhanging parts).
 | 3 | [Tune your printer and filament](docs/3-calibrate.md) - once per printer + filament | about 1.5 h, mostly waiting |
 | 4 | [Print and put the ball together](docs/4-print.md) | about 4.5 h printing |
 
+Optional: [Setting up Python](docs/tools-setup.md) - only needed for the
+helper tools that check or convert the model files (Windows, Mac, Linux).
+
 New to 3D printing? No problem. Start at step 1 and do every step in order.
 Each page tells you exactly what to click.
 
