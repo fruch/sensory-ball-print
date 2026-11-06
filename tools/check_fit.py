@@ -50,13 +50,23 @@ def measure_half(pts):
 
 def measure_screw(pts):
     """(thread root d, thread crest d) - radius about the X axis, near the
-    equator so the printing flats on top and bottom don't count."""
+    equator so the printing flats on top and bottom don't count.
+
+    The screw has a wider stop collar in the middle, so the crest is the
+    MEDIAN of the per-0.5 mm-slice maxima along the axis, not the overall max.
+    """
     lo, hi, c = box(pts)
-    # ponytail: assumes the screw lies along X with flats on Z, as the V11/V12
-    # files are published; a screw stored standing up needs a rotation first.
+    # ponytail: assumes the screw lies along X with flats on Z, as the V11
+    # file is published; a screw stored standing up needs a rotation first.
     # The screw is hollow; its core wall sits inside 37% of the width.
-    rs = [abs(p[1] - c[1]) for p in pts if abs(p[2] - c[2]) < 2 and abs(p[1] - c[1]) > 0.37 * (hi[1] - lo[1])]
-    return 2 * min(rs), 2 * max(rs)
+    bins = {}
+    for p in pts:
+        r = abs(p[1] - c[1])
+        if abs(p[2] - c[2]) < 2 and r > 0.37 * (hi[1] - lo[1]):
+            bins.setdefault(int((p[0] - lo[0]) // 0.5), []).append(r)
+    tops = sorted(max(v) for v in bins.values())
+    root = min(min(v) for v in bins.values())
+    return 2 * root, 2 * tops[len(tops) // 2]
 
 
 def main(paths):

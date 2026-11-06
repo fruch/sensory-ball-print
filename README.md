@@ -36,10 +36,11 @@ step in order - each page says exactly what to click.
 The model files are not stored here. Download them from the designer's page:
 _link coming soon_.
 
-You need **three files of the same version and size**, e.g. for the 51 mm ball:
-`senso1_51mm_V12_mono.stl`, `senso2_51mm_V12_mono.stl` and the matching
-**V12** screw. Mixing versions or sizes is the most common mistake - the
-pieces print fine but won't screw together. Step 4 shows how to check.
+You need **two halves of the same size** plus the screw, e.g. for the 51 mm
+ball: `senso1_51mm_V12_mono.stl`, `senso2_51mm_V12_mono.stl` and
+`Sensory Screw V11.stl` (the V11 screw is the current one and fits the V12
+halves). Mixing sizes is the most common mistake - the pieces print fine but
+won't make a round ball. Step 4 shows how to check.
 
 ## Printer status
 

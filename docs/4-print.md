@@ -3,14 +3,24 @@
 ## 1. Get matching parts
 
 Download the three files from the designer's page (_link coming soon_):
-two halves and the screw, **all the same version and size**.
+two halves **of the same size** and the screw.
 
 | Good | Bad |
 |---|---|
-| `senso1_51mm_V12` + `senso2_51mm_V12` + **V12** screw | a 51 mm half with a 47 mm half |
-| | a **V11** screw with **V12** halves - its thread is 0.9 mm too big |
+| `senso1_51mm_V12` + `senso2_51mm_V12` + `Sensory Screw V11` | a 51 mm half with a 47 mm half |
 
-Both of these mistakes print without errors and then don't fit together.
+All sizes use the same screw thread, so a mixed pair screws together - and
+makes a lopsided ball.
+
+**Only have the multi-colour project (`.3mf` with text parts)?** On a
+single-colour printer, `tools/extract_ball.py` pulls one ball out of it as
+`half1.stl`, `half2.stl` and `screw.stl`, with the text merged into each half
+(see [Checking the files](#optional-checking-the-files-before-printing) for
+how to run Python):
+
+```
+python3 tools/extract_ball.py "Sanso 51 U1.3mf" model
+```
 If you can run Python, `tools/check_fit.py` checks the files for you - see
 [Checking the files](#optional-checking-the-files-before-printing) below.
 
