@@ -5,7 +5,7 @@ and getting a good result: ready-made slicer settings, a short calibration
 routine, and a parts check so you don't spend 5 hours printing pieces that
 don't fit.
 
-This guide is part of a charity effort. Charity site: _link coming soon_.
+This guide is part of a charity effort: [Pastrami Angel](https://pastrami-angel.com/).
 
 The ball is three printed parts: **two spiky halves** and a **threaded
 connector (screw)** that joins them. On a Creality Ender 3 Pro the whole set
