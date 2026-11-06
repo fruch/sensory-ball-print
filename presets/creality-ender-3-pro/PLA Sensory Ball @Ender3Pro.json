@@ -1,0 +1,26 @@
+{
+ "compatible_printers": ["Creality Ender-3 Pro 0.4 nozzle"],
+ "filament_density": ["1.24"],
+ "filament_diameter": ["1.75"],
+ "filament_flow_ratio": ["0.98"],
+ "filament_max_volumetric_speed": ["12"],
+ "filament_notes": [
+  "Sensory ball - PLA on a stock Creality Ender 3 Pro (Bowden tube, stock hotend, 0.4 mm nozzle).\n\nStarting values. Run the calibration guide (docs/3-calibrate.md) and replace them with your own:\n  nozzle temperature   195 C (205 C first layer)  <- temperature tower\n  flow ratio           0.98                       <- flow rate test\n  retraction           5 mm @ 40 mm/s             <- retraction test\n  max volumetric speed 12 mm3/s                   <- max flowrate test\n\nAnti-stringing: wipe OFF and z-hop OFF are deliberate. Keep them off.\nSource: https://github.com/fruch/sensory-ball-print"
+ ],
+ "filament_retraction_length": ["5"],
+ "filament_retraction_speed": ["40"],
+ "filament_settings_id": ["PLA Sensory Ball @Ender3Pro"],
+ "filament_type": ["PLA"],
+ "filament_wipe": ["0"],
+ "filament_z_hop": ["0"],
+ "from": "User",
+ "hot_plate_temp": ["60"],
+ "hot_plate_temp_initial_layer": ["60"],
+ "inherits": "Generic PLA @System",
+ "name": "PLA Sensory Ball @Ender3Pro",
+ "nozzle_temperature": ["195"],
+ "nozzle_temperature_initial_layer": ["205"],
+ "slow_down_layer_time": ["10"],
+ "type": "filament",
+ "version": "2.4.0.2"
+}

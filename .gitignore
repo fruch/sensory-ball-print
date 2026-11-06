@@ -1,0 +1,6 @@
+# The ball model belongs to its designer - never commit it
+*.stl
+*.STL
+*.3mf
+*.gcode
+__pycache__/
