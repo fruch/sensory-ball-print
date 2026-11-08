@@ -11,7 +11,7 @@ This guide is part of a charity project: [Pastrami Angel](https://pastrami-angel
 
 The ball has three printed parts: **two spiky halves** and a **screw** (a
 threaded connector) that holds them together. On a Creality Ender 3 Pro
-printer, all three parts take about **4.5 hours** and use **30 g of PLA**
+printer, all three parts take about **4 hours** and use **30 g of PLA**
 plastic. You don't need supports (extra helper plastic that holds up
 overhanging parts).
 
@@ -24,7 +24,7 @@ overhanging parts).
   PLA, 1.75 mm thick.
 - A computer - Windows, Mac or Linux.
 - About 1.5 hours for the test prints (you do them only once), then about
-  4.5 hours for each ball.
+  4 hours for each ball.
 
 ## Steps
 
@@ -33,7 +33,7 @@ overhanging parts).
 | 1 | [Install the slicer (OrcaSlicer)](docs/1-install.md) | 10 min |
 | 2 | [Load this project's settings](docs/2-presets.md) | 5 min |
 | 3 | [Tune your printer and filament](docs/3-calibrate.md) - once per printer + filament | about 1.5 h, mostly waiting |
-| 4 | [Print and put the ball together](docs/4-print.md) | about 4.5 h printing |
+| 4 | [Print and put the ball together](docs/4-print.md) | about 4 h printing |
 
 Optional: [Setting up Python](docs/tools-setup.md) - only needed for the
 helper tools that check or convert the model files (Windows, Mac, Linux).

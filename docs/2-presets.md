@@ -49,10 +49,19 @@ step 1.
 | Setting | Value | Why |
 |---|---|---|
 | Nozzle temperature | 195 °C (205 °C first layer) | cooler plastic = fewer thin hairs between the spikes |
-| Retraction (pulling the plastic back) | 5 mm at 40 mm/s | printers with a long tube between the motor and the nozzle (called Bowden) need to pull back further |
+| Retraction (pulling the plastic back) | 5 mm at 60 mm/s | printers with a long tube between the motor and the nozzle (called Bowden) need to pull back further, and a fast pull drips less |
 | Wipe / Z-hop | off / off | both made more hairs in our tests |
 | Walls | 3 | the screw threads and spike tips are almost all wall - 3 walls make them strong |
-| Avoid crossing walls | on | the nozzle moves over the part, not through the air, so it doesn't leave strings |
+| Travel (moving without printing) | 150 mm/s, acceleration 1500 | the less time the nozzle spends in the air between spikes, the fewer hairs. Printing itself stays at the normal 500 |
+| Avoid crossing walls | off | when it was on, the nozzle took longer routes between spikes and left more hairs |
+
+The filament preset also sends one extra line to the printer at the start
+(`M201 X1500 Y1500`). The stock Ender 3 Pro limits every move to 500, so
+without this line the faster travel setting does nothing. It lasts only until
+the printer is turned off.
+
+These three travel changes made the biggest difference in our tests - much
+more than changing the retraction length or the temperature.
 
 These are **starting values**. In Step 3 you replace the first four with
 numbers you measure on *your* printer and *your* filament.

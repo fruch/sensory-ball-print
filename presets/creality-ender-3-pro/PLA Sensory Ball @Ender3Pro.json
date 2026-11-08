@@ -5,11 +5,12 @@
  "filament_flow_ratio": ["0.98"],
  "filament_max_volumetric_speed": ["12"],
  "filament_notes": [
-  "Sensory ball - PLA on a stock Creality Ender 3 Pro (Bowden tube, stock hotend, 0.4 mm nozzle).\n\nStarting values. Run the calibration guide (docs/3-calibrate.md) and replace them with your own:\n  nozzle temperature   195 C (205 C first layer)  <- temperature tower\n  flow ratio           0.98                       <- flow rate test\n  retraction           5 mm @ 40 mm/s             <- retraction test\n  max volumetric speed 12 mm3/s                   <- max flowrate test\n\nAnti-stringing: wipe OFF and z-hop OFF are deliberate. Keep them off.\nSource: https://github.com/fruch/sensory-ball-print"
+  "Sensory ball - PLA on a stock Creality Ender 3 Pro (Bowden tube, stock hotend, 0.4 mm nozzle).\n\nStarting values. Run the calibration guide (docs/3-calibrate.md) and replace them with your own:\n  nozzle temperature   195 C (205 C first layer)  <- temperature tower\n  flow ratio           0.98                       <- flow rate test\n  retraction           5 mm @ 60 mm/s             <- retraction test\n  max volumetric speed 12 mm3/s                   <- max flowrate test\n\nAnti-stringing: wipe OFF and z-hop OFF are deliberate. Keep them off.\nThe start G-code raises the X/Y acceleration limit to 1500 so travel moves (set to 1500 in the process preset) are short; stock firmware caps every move at 500 otherwise. Printing itself stays at 500.\nSource: https://github.com/fruch/sensory-ball-print"
  ],
  "filament_retraction_length": ["5"],
- "filament_retraction_speed": ["40"],
+ "filament_retraction_speed": ["60"],
  "filament_settings_id": ["PLA Sensory Ball @Ender3Pro"],
+ "filament_start_gcode": ["; Filament gcode\nM201 X1500 Y1500 ; let travel moves use 1500 mm/s2 (stock limit 500)\n"],
  "filament_type": ["PLA"],
  "filament_wipe": ["0"],
  "filament_z_hop": ["0"],

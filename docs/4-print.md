@@ -50,7 +50,7 @@ You don't need supports - leave **Support** off.
 ## 3. Slice
 
 Click **Slice plate** (top right). This turns the model into printer
-instructions. On an Ender 3 Pro you should see about **4 h 30 m** and
+instructions. On an Ender 3 Pro you should see about **4 h 05 m** and
 **29-31 g** for all three parts.
 
 ## Sending the file to the printer
